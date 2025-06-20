@@ -1,0 +1,17 @@
+[SERVER]
+host = 127.0.0.1
+port = 2222
+host_key_file = host_key
+
+[AUTH]
+username = admin
+password = admin
+
+[DIRECTORIES]
+base_directory = /workspace/db-ready
+allowed_directories = /workspace/db-ready,/tmp,/home
+
+[TUNNELING]
+enable_port_forwarding = true
+allowed_hosts = localhost,127.0.0.1,0.0.0.0
+allowed_ports = 1024-65535
