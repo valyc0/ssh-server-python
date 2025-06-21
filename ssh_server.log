@@ -1,0 +1,6 @@
+2025-06-21 10:46:49,306 - __main__ - INFO - Generated new host key: host_key
+2025-06-21 10:46:49,306 - __main__ - INFO - SSH Server started on 127.0.0.1:2223
+2025-06-21 10:46:49,306 - __main__ - INFO - Username: admin
+2025-06-21 10:46:49,306 - __main__ - INFO - Password: admin
+2025-06-21 10:46:49,306 - __main__ - INFO - Base directory: /workspace/db-ready
+2025-06-21 10:52:34,996 - __main__ - INFO - Server shutting down...
