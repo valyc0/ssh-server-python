@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  ssh-server:
+    build: .
+    container_name: ssh-tunnel-server
+    ports:
+      - "2222:2222"
+    volumes:
+      - ./config.ini:/app/config.ini:ro
+      - ./logs:/app/logs
+      - ./keys:/app/keys
+      - ./ssh_host_key:/app/ssh_host_key:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - SSH_PORT=2222
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.socket(); s.connect(('localhost', 2222)); s.close()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - ssh-network
+
+networks:
+  ssh-network:
+    driver: bridge

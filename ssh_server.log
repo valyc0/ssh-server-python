@@ -1,0 +1,159 @@
+2025-06-23 07:35:35,286 - INFO - Generating new SSH host key: ssh_host_key
+2025-06-23 07:35:35,311 - ERROR - Failed to start SSH server: SSHServerConnectionOptions.prepare() got an unexpected keyword argument 'allow_local_forwarding'
+2025-06-23 07:35:35,311 - ERROR - Server error: SSHServerConnectionOptions.prepare() got an unexpected keyword argument 'allow_local_forwarding'
+2025-06-23 07:36:54,736 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:36:54,807 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:36:54,808 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:36:54,809 - INFO - Username: admin
+2025-06-23 07:36:54,809 - INFO - Password: admin
+2025-06-23 07:36:54,809 - INFO - Server supports:
+2025-06-23 07:36:54,809 - INFO -   - Local port forwarding: True
+2025-06-23 07:36:54,809 - INFO -   - Remote port forwarding: True
+2025-06-23 07:36:54,809 - INFO -   - SOCKS proxy: True
+2025-06-23 07:36:54,810 - INFO - Example tunnel commands:
+2025-06-23 07:36:54,810 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:36:54,810 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:36:54,810 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 07:37:08,338 - INFO - [conn=0] Accepted SSH client connection
+2025-06-23 07:37:08,338 - INFO - [conn=0]   Local address: 127.0.0.1, port 2222
+2025-06-23 07:37:08,339 - INFO - [conn=0]   Peer address: 127.0.0.1, port 60046
+2025-06-23 07:37:08,339 - INFO - SSH connection from 127.0.0.1:60046
+2025-06-23 07:37:10,204 - INFO - [conn=0] Beginning auth for user admin
+2025-06-23 07:37:12,387 - INFO - Successful authentication for user: admin
+2025-06-23 07:37:12,388 - INFO - [conn=0] Auth for user admin succeeded
+2025-06-23 07:37:12,388 - INFO - [conn=0] Sending server host keys disabled
+2025-06-23 07:37:12,389 - INFO - [conn=0, chan=0] New SSH session requested
+2025-06-23 07:37:12,390 - INFO - [conn=0, chan=0]   PTY created
+2025-06-23 07:37:12,391 - INFO - [conn=0, chan=0]   Line editor enabled
+2025-06-23 07:37:12,391 - INFO - [conn=0, chan=0]   Interactive shell requested
+2025-06-23 07:37:28,340 - INFO - Local port forwarding requested: localhost:8065
+2025-06-23 07:37:28,340 - INFO - [conn=0] Accepted direct TCP connection request to localhost, port 8065
+2025-06-23 07:37:28,340 - INFO - [conn=0]   Client address: 127.0.0.1, port 49848
+2025-06-23 07:37:28,342 - INFO - [conn=0]   Forwarding TCP connection to localhost, port 8065
+2025-06-23 07:37:28,363 - INFO - [conn=0, chan=1] Closing channel
+2025-06-23 07:37:28,364 - INFO - [conn=0, chan=1] Received channel close
+2025-06-23 07:37:28,365 - INFO - [conn=0, chan=1] Channel closed
+2025-06-23 07:39:44,298 - INFO - Local port forwarding requested: localhost:8065
+2025-06-23 07:39:44,298 - INFO - [conn=0] Accepted direct TCP connection request to localhost, port 8065
+2025-06-23 07:39:44,299 - INFO - [conn=0]   Client address: 127.0.0.1, port 35312
+2025-06-23 07:39:44,300 - INFO - [conn=0]   Forwarding TCP connection to localhost, port 8065
+2025-06-23 07:39:44,318 - INFO - [conn=0, chan=2] Closing channel
+2025-06-23 07:39:44,319 - INFO - [conn=0, chan=2] Received channel close
+2025-06-23 07:39:44,319 - INFO - [conn=0, chan=2] Channel closed
+2025-06-23 07:50:25,686 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:50:25,751 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:50:25,752 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:50:25,753 - INFO - Username: admin
+2025-06-23 07:50:25,753 - INFO - Password: admin
+2025-06-23 07:50:25,753 - INFO - Server supports:
+2025-06-23 07:50:25,753 - INFO -   - Local port forwarding: True
+2025-06-23 07:50:25,753 - INFO -   - Remote port forwarding: True
+2025-06-23 07:50:25,753 - INFO -   - SOCKS proxy: True
+2025-06-23 07:50:25,753 - INFO - Example tunnel commands:
+2025-06-23 07:50:25,753 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:50:25,753 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:50:25,754 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 07:51:12,464 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:51:12,515 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:51:12,517 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:51:12,517 - INFO - Username: admin
+2025-06-23 07:51:12,518 - INFO - Password: admin
+2025-06-23 07:51:12,518 - INFO - Server supports:
+2025-06-23 07:51:12,518 - INFO -   - Local port forwarding: True
+2025-06-23 07:51:12,518 - INFO -   - Remote port forwarding: True
+2025-06-23 07:51:12,519 - INFO -   - SOCKS proxy: True
+2025-06-23 07:51:12,519 - INFO - Example tunnel commands:
+2025-06-23 07:51:12,519 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:51:12,519 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:51:12,519 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 07:51:27,118 - INFO - [conn=0] Accepted SSH client connection
+2025-06-23 07:51:27,119 - INFO - [conn=0]   Local address: 127.0.0.1, port 2222
+2025-06-23 07:51:27,119 - INFO - [conn=0]   Peer address: 127.0.0.1, port 50966
+2025-06-23 07:51:27,120 - INFO - SSH connection from 127.0.0.1:50966
+2025-06-23 07:51:27,216 - INFO - [conn=0] Beginning auth for user admin
+2025-06-23 07:51:30,635 - ERROR - SSH connection lost: Connection lost
+2025-06-23 07:51:36,869 - INFO - [conn=1] Accepted SSH client connection
+2025-06-23 07:51:36,869 - INFO - [conn=1]   Local address: 127.0.0.1, port 2222
+2025-06-23 07:51:36,869 - INFO - [conn=1]   Peer address: 127.0.0.1, port 38092
+2025-06-23 07:51:36,869 - INFO - SSH connection from 127.0.0.1:38092
+2025-06-23 07:51:36,959 - INFO - [conn=1] Beginning auth for user admin
+2025-06-23 07:51:39,218 - INFO - Successful authentication for user: admin
+2025-06-23 07:51:39,218 - INFO - [conn=1] Auth for user admin succeeded
+2025-06-23 07:51:39,218 - INFO - [conn=1] Sending server host keys disabled
+2025-06-23 07:51:39,220 - INFO - [conn=1, chan=0] New SSH session requested
+2025-06-23 07:51:39,222 - INFO - [conn=1, chan=0]   PTY created
+2025-06-23 07:51:39,222 - INFO - [conn=1, chan=0]   Line editor enabled
+2025-06-23 07:51:39,223 - INFO - [conn=1, chan=0]   Interactive shell requested
+2025-06-23 07:51:50,986 - INFO - Local port forwarding requested: localhost:1521
+2025-06-23 07:51:50,987 - INFO - [conn=1] Accepted direct TCP connection request to localhost, port 1521
+2025-06-23 07:51:50,987 - INFO - [conn=1]   Client address: 127.0.0.1, port 53852
+2025-06-23 07:51:50,988 - INFO - [conn=1]   Forwarding TCP connection to localhost, port 1521
+2025-06-23 07:51:52,744 - INFO - Local port forwarding requested: localhost:1521
+2025-06-23 07:51:52,745 - INFO - [conn=1] Accepted direct TCP connection request to localhost, port 1521
+2025-06-23 07:51:52,745 - INFO - [conn=1]   Client address: 127.0.0.1, port 53858
+2025-06-23 07:51:52,746 - INFO - [conn=1]   Forwarding TCP connection to localhost, port 1521
+2025-06-23 07:56:30,874 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:56:30,929 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:56:30,930 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:56:30,931 - INFO - Username: admin
+2025-06-23 07:56:30,931 - INFO - Password: admin
+2025-06-23 07:56:30,932 - INFO - Server supports:
+2025-06-23 07:56:30,932 - INFO -   - Local port forwarding: True
+2025-06-23 07:56:30,932 - INFO -   - Remote port forwarding: True
+2025-06-23 07:56:30,932 - INFO -   - SOCKS proxy: True
+2025-06-23 07:56:30,932 - INFO - Example tunnel commands:
+2025-06-23 07:56:30,933 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:56:30,933 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:56:30,933 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 07:56:48,840 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:56:48,894 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:56:48,896 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:56:48,896 - INFO - Username: admin
+2025-06-23 07:56:48,896 - INFO - Password: admin
+2025-06-23 07:56:48,896 - INFO - Server supports:
+2025-06-23 07:56:48,896 - INFO -   - Local port forwarding: True
+2025-06-23 07:56:48,896 - INFO -   - Remote port forwarding: True
+2025-06-23 07:56:48,896 - INFO -   - SOCKS proxy: True
+2025-06-23 07:56:48,896 - INFO - Example tunnel commands:
+2025-06-23 07:56:48,897 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:56:48,897 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:56:48,897 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 07:57:31,435 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 07:57:31,486 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 07:57:31,486 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 07:57:31,486 - INFO - Username: admin
+2025-06-23 07:57:31,487 - INFO - Password: admin
+2025-06-23 07:57:31,487 - INFO - Server supports:
+2025-06-23 07:57:31,487 - INFO -   - Local port forwarding: True
+2025-06-23 07:57:31,487 - INFO -   - Remote port forwarding: True
+2025-06-23 07:57:31,487 - INFO -   - SOCKS proxy: True
+2025-06-23 07:57:31,487 - INFO - Example tunnel commands:
+2025-06-23 07:57:31,487 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 07:57:31,487 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 07:57:31,487 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 08:09:13,209 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 08:09:13,271 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 08:09:13,271 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 08:09:13,272 - INFO - Username: admin
+2025-06-23 08:09:13,272 - INFO - Password: admin
+2025-06-23 08:09:13,272 - INFO - Server supports:
+2025-06-23 08:09:13,272 - INFO -   - Local port forwarding: True
+2025-06-23 08:09:13,272 - INFO -   - Remote port forwarding: True
+2025-06-23 08:09:13,272 - INFO -   - SOCKS proxy: True
+2025-06-23 08:09:13,272 - INFO - Example tunnel commands:
+2025-06-23 08:09:13,272 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 08:09:13,272 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 08:09:13,273 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
+2025-06-23 08:09:20,792 - INFO - Using existing SSH host key: ssh_host_key
+2025-06-23 08:09:20,855 - INFO - Creating SSH listener on 0.0.0.0, port 2222
+2025-06-23 08:09:20,856 - INFO - SSH Server started on 0.0.0.0:2222
+2025-06-23 08:09:20,856 - INFO - Username: admin
+2025-06-23 08:09:20,856 - INFO - Password: admin
+2025-06-23 08:09:20,856 - INFO - Server supports:
+2025-06-23 08:09:20,857 - INFO -   - Local port forwarding: True
+2025-06-23 08:09:20,857 - INFO -   - Remote port forwarding: True
+2025-06-23 08:09:20,857 - INFO -   - SOCKS proxy: True
+2025-06-23 08:09:20,857 - INFO - Example tunnel commands:
+2025-06-23 08:09:20,857 - INFO -   Local port forward: ssh -L 1521:localhost:1521 admin@localhost -p 2222
+2025-06-23 08:09:20,857 - INFO -   Remote port forward: ssh -R 8080:localhost:80 admin@localhost -p 2222
+2025-06-23 08:09:20,857 - INFO -   SOCKS proxy: ssh -D 1080 admin@localhost -p 2222
